@@ -40,7 +40,7 @@ export default function Home() {
       A <span className="font-semibold">ONE STOP </span> solution for all<br className="hidden lg:block" /> finance related issues <span className="font-semibold underline decoration-primary"><span ref={el} /></span>
     </h1>
     <p className="mt-4 text-lg text-gray-500 dark:text-gray-300">
-      Lorem ipsum dolor sit amet. <br className="hidden lg:block" /> Lorem ipsum dolor sit.
+       <br className="hidden lg:block" /> 
     </p>
     <div className="mt-6 bg-transparent border rounded-lg dark:border-gray-700 lg:w-2/3 focus-within:border-primary focus-within:ring focus-within:ring-primary dark:focus-within:border-primary focus-within:ring-opacity-20">
       <form action="https://www.creative-tim.com/twcomponents/search" className="flex flex-wrap justify-between md:flex-row">
@@ -174,7 +174,7 @@ export default function Home() {
             ></iframe>
           </div>
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Video Title 1</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Financial Literacy for Rural Women</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the video goes here. It should be engaging and informative.</p>
             <Button className="m-2" variant="outline" href="/video-1">Watch Full Video</Button>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
             ></iframe>
           </div>
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Video Title 2</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Financial Literacy</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the video goes here. It should be engaging and informative.</p>
             <Button className="m-2" variant="outline" href="/video-2">Watch Full Video</Button>
           </div>
@@ -212,7 +212,7 @@ export default function Home() {
             ></iframe>
           </div>
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Video Title 3</h3>
+            <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Financial Inclusion in Rural India</h3>
             <p className="mt-2 text-gray-600 dark:text-gray-400">A brief description of the video goes here. It should be engaging and informative.</p>
             <Button className="m-2" variant="outline" href="/video-3">Watch Full Video</Button>
           </div>
