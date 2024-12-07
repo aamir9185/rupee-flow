@@ -2,6 +2,7 @@
 
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 
 export default function FetchLoans() {
   const [loans, setLoans] = useState([]);
@@ -37,9 +38,13 @@ export default function FetchLoans() {
       ) : (
         <ul className="space-y-4">
           {loans.map((loan) => (
-            <li
+            <motion.li
               key={loan._id}
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.5 }}
             >
               <h2 className="text-xl font-semibold text-gray-800 mb-2">
                 {loan.loan_name}
@@ -83,7 +88,7 @@ export default function FetchLoans() {
                   </ul>
                 </div>
               </div>
-            </li>
+            </motion.li>
           ))}
         </ul>
       )}
